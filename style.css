@@ -340,3 +340,55 @@ footer p{
     padding: 25px 34px;
 
 }
+@media(max-width:768px){
+    .nav-items{
+        display: none;
+    }
+    .titles-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+    .esraa{
+        height: 270px;
+        width: 320px;
+        transform: translate(-40px , -40px);
+    }
+    .about-div{
+        flex-direction: column;
+        display: flex;
+    }
+    .icons-abt{
+        display: flex;
+        flex-direction: column;
+    }
+    .iconss{
+        height: 250px;
+        width: 200px;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(50px);
+    }
+    .icons-projects{
+        display: flex;
+        flex-direction: column;
+        padding:0px 90px;
+    }
+    .img ,.img1{
+        width: 320px;
+    }
+    .icon-project{
+        width: 320px;
+    }
+    .coding{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .icons-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
