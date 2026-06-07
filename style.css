@@ -283,6 +283,11 @@ hr{
 .code{
     display: flex;
     flex-direction: column;
+    transition: all ease-in-out 0.3s;
+}
+.code:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .coding{
     display: flex;
@@ -390,5 +395,10 @@ footer p{
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .nav-header{
+        max-width: 100vh;
+        box-sizing: border-box !important;
+        width: 100%;
     }
 }
